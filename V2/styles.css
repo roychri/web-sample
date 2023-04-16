@@ -71,6 +71,18 @@ nav a:hover {
     background: #e0ac07;
 }
 
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+}
+
+
 /* Sections */
 section {
     padding: 2rem;
