@@ -1,0 +1,132 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* Navigation */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://cdn.discordapp.com/attachments/1013219587053064202/1097288997610475650/ChristianKing_photorealistic_image_of_a_pool_with_a_focus_on_th_4be26125-081d-47d6-a4b8-14611e4f9dee.png') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 2rem;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #ffc107;
+    color: #333;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #e0ac07;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    margin-bottom: 1rem;
+}
+
+/* Services */
+.service {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Hours of Operation */
+#heures {
+    text-align: center;
+}
+
+/* Regions */
+#regions {
+    text-align: center;
+}
+
+#regions ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#regions li {
+    background: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
