@@ -103,6 +103,17 @@ section p {
     margin-bottom: 2rem;
 }
 
+/* Styles pour les images de services */
+.service img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 5px;
+}
+
+
 /* Hours of Operation */
 #heures {
     text-align: center;
